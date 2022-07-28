@@ -23,6 +23,3 @@ For installation u have to clone the repository and put it inside your IDE
 
 # Starting the project 
 In irder to be able to start the project properly, you have to get the needed tools from the marketplace in eclipse (web dev tools 3, spring tools 4)
-
-# Database connections
-I've used 2 databases User and Course.
