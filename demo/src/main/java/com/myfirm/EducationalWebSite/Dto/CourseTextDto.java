@@ -1,6 +1,7 @@
 package com.myfirm.EducationalWebSite.Dto;
 
 import com.sun.istack.NotNull;
+
 import javax.persistence.Lob;
 
 public class CourseTextDto {

@@ -6,13 +6,14 @@ import javax.persistence.*;
 @Table(name = "Course")
 public class Course {
     @Id
-    @GeneratedValue(strategy =  GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
-    @Column(nullable = false,length = 300)
+    @Column(nullable = false, length = 300)
     private String title;
 
-    @Lob @Column(nullable = false)
+    @Lob
+    @Column(nullable = false)
     private String body;
 
     public int getId() {
